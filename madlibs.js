@@ -13,9 +13,9 @@ let verb1 = prompt("Please give me a 3rd person plural verb - Something that the
 let noun2 = prompt("Please give me a singular noun");
 let adjective2 = prompt("Please give me a color");
 
-console.log(`Taking Care of ${adjective1} ${exampleNoun}: 
-    \nIt is very important that %{exampleNoun} %{verb1} every day. 
-    \nThey will also need a ${noun2} first thing in the morning. `)
+console.log(`Taking Care of ${adjective1} ${exampleNoun}: `);
+console.log(`It is very important that ${exampleNoun} ${verb1} every day. `)
+console.log(`They will also need a ${noun2} first thing in the morning. `)
 
 
 
